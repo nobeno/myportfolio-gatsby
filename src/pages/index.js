@@ -1,5 +1,6 @@
 import React from 'react'
 import Helmet from 'react-helmet'
+import Work from '../components/Work'
 
 import Layout from '../components/layout'
 // import Lightbox from 'react-images'
@@ -32,6 +33,8 @@ class HomeIndex extends React.Component {
                         <header className="major">
                             <h2>Work</h2>
                         </header>
+
+                        <Work />
                         
                     </section>
 
