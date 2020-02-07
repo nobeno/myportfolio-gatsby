@@ -1,6 +1,7 @@
 import React from 'react'
 import Helmet from 'react-helmet'
 import Work from '../components/Work'
+import Skill from '../components/Skill'
 
 import Layout from '../components/layout'
 // import Lightbox from 'react-images'
@@ -42,8 +43,9 @@ class HomeIndex extends React.Component {
                         <header className="major">
                             <h2>Skill</h2>
                         </header>
-                        
-                        
+
+                        <Skill />
+
                     </section>
 
                     <section id="three">

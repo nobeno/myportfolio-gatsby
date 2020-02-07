@@ -1,0 +1,49 @@
+.heading {
+    text-align: center;
+    // letter-spacing: .2em;
+    margin-bottom: 0;
+}
+
+.RecomendPoint {
+    list-style: none;
+    padding: 0;
+    background: #fff;
+    padding: 20px 30px;
+    border-radius: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.RecomendPoint__S {
+    font-size: 1.2em;
+}
+
+.RecomendPoint__L {
+    font-size: 1.0em;
+}
+
+.RecomendPoint li::after {
+    content: ',';
+    font-size: 18px;
+}
+
+.RecomendPoint li {
+    text-decoration: underline;
+    display: inline-block;
+    padding: 5px;
+}
+
+.RecomendPoint li {
+    -webkit-transition: .3s;
+    transition: .3s;
+    font-size: 18px;
+}
+
+.RecomendPoint li:hover {
+    -webkit-transform: scale(1.1, 1.1);
+    transform: scale(1.1, 1.1);
+    color: #e95014;
+}
+
+
+
