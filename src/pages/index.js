@@ -3,10 +3,8 @@ import Helmet from 'react-helmet'
 import Work from '../components/Work'
 import Skill from '../components/Skill'
 import Profile from '../components/Profile'
-
+import Question from '../components/Question'
 import Layout from '../components/layout'
-// import Lightbox from 'react-images'
-import Gallery from '../components/Gallery'
 
 class HomeIndex extends React.Component {
 
@@ -50,7 +48,15 @@ class HomeIndex extends React.Component {
 
                     </section>
 
-                    <section id="three">
+                    <section id="four">
+                        <header className="major">
+                            <h2>Question</h2>
+                        </header>
+
+                        <Question />
+                    </section>
+
+                    <section id="five">
                         <header className="major">
                             <h2>Contact</h2>
                         </header>
