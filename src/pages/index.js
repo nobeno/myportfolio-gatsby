@@ -5,6 +5,7 @@ import Skill from '../components/Skill'
 import Profile from '../components/Profile'
 import Question from '../components/Question'
 import Layout from '../components/layout'
+import Contact from '../components/Contact'
 
 class HomeIndex extends React.Component {
 
@@ -61,7 +62,7 @@ class HomeIndex extends React.Component {
                             <h2>Contact</h2>
                         </header>
                         
-                        
+                        <Contact />
                     </section>
 
                 </div>
