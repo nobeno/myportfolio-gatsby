@@ -1,9 +1,11 @@
 import React from 'react'
 import Helmet from 'react-helmet'
-
+import Work from '../components/Work'
+import Skill from '../components/Skill'
+import Profile from '../components/Profile'
+import Question from '../components/Question'
 import Layout from '../components/layout'
-// import Lightbox from 'react-images'
-import Gallery from '../components/Gallery'
+import Contact from '../components/Contact'
 
 class HomeIndex extends React.Component {
 
@@ -24,7 +26,8 @@ class HomeIndex extends React.Component {
                         <header className="major">
                             <h2>Profile</h2>
                         </header>
-                        <p></p>
+                        
+                        <Profile />
                         
                     </section>
 
@@ -32,6 +35,8 @@ class HomeIndex extends React.Component {
                         <header className="major">
                             <h2>Work</h2>
                         </header>
+
+                        <Work />
                         
                     </section>
 
@@ -39,16 +44,25 @@ class HomeIndex extends React.Component {
                         <header className="major">
                             <h2>Skill</h2>
                         </header>
-                        
-                        
+
+                        <Skill />
+
                     </section>
 
-                    <section id="three">
+                    <section id="four">
+                        <header className="major">
+                            <h2>Question</h2>
+                        </header>
+
+                        <Question />
+                    </section>
+
+                    <section id="five">
                         <header className="major">
                             <h2>Contact</h2>
                         </header>
                         
-                        
+                        <Contact />
                     </section>
 
                 </div>
