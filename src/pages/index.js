@@ -2,6 +2,7 @@ import React from 'react'
 import Helmet from 'react-helmet'
 import Work from '../components/Work'
 import Skill from '../components/Skill'
+import Profile from '../components/Profile'
 
 import Layout from '../components/layout'
 // import Lightbox from 'react-images'
@@ -26,7 +27,8 @@ class HomeIndex extends React.Component {
                         <header className="major">
                             <h2>Profile</h2>
                         </header>
-                        <p></p>
+                        
+                        <Profile />
                         
                     </section>
 
