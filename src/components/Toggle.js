@@ -33,7 +33,7 @@ class Parent extends React.Component {
 
 class Child extends React.Component {
     render() {
-        return (    
+        return (  
             <ul>
                 <li>HTML5/CSS3：セブ島で2ヶ月学習。Bootstrap４を使ったサイト制作可能。</li>
                 <li>JavaScript：セブ島で1ヶ月学習。基本公文を人撮り学び、jQuery とReactを少し使える程度。</li>
