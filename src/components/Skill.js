@@ -6,7 +6,7 @@ class Skill extends React.Component {
         return(
             <div>
                 <header class="heading">
-                    <h3>できること(習熟度は別として、タグクラウド風に)</h3>
+                    <h3>できること(タグクラウド風に。詳細はQuestionで。)</h3>
                 </header>
 
                 <ul class="RecomendPoint">

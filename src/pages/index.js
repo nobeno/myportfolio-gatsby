@@ -24,7 +24,7 @@ class HomeIndex extends React.Component {
 
                     <section id="one">
                         <header className="major">
-                            <h2>Profile</h2>
+                            <h2 class="heading2">Profile</h2>
                         </header>
                         
                         <Profile />
@@ -33,7 +33,7 @@ class HomeIndex extends React.Component {
 
                     <section id="two">
                         <header className="major">
-                            <h2>Work</h2>
+                            <h2 class="heading2">Work</h2>
                         </header>
 
                         <Work />
@@ -42,7 +42,7 @@ class HomeIndex extends React.Component {
 
                     <section id="three">
                         <header className="major">
-                            <h2>Skill</h2>
+                            <h2 class="heading2">Skill</h2>
                         </header>
 
                         <Skill />
@@ -51,7 +51,7 @@ class HomeIndex extends React.Component {
 
                     <section id="four">
                         <header className="major">
-                            <h2>Question</h2>
+                            <h2 class="heading2">Question</h2>
                         </header>
 
                         <Question />
@@ -59,7 +59,7 @@ class HomeIndex extends React.Component {
 
                     <section id="five">
                         <header className="major">
-                            <h2>Contact</h2>
+                            <h2 class="heading2">Contact</h2>
                         </header>
                         
                         <Contact />
