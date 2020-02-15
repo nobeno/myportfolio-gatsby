@@ -1,4 +1,5 @@
 import React from 'react'
+import Fade from 'react-reveal/Fade';
 import '../assets/scss/question.scss'
 import Parent from '../components/Toggle'
 
@@ -6,6 +7,7 @@ class Question extends React.Component {
     render() {
         return (
             <dl class="faq">
+                <Fade bottom>
                 <dt>ビル管理からエンジニアに転職したのはなぜですか？</dt>
                 <dd>ITが好きなのと危機感です。<br />Progateでプログラミングを初めて触れて、楽しんでやっている自分がいたので、転職を決めました。加えてすべての業界で、ITが関わって変わっていくだろうと思い、学ばずにキャリアを重ねるのは、リスクがあると感じたからです。</dd>
                 <dt>セブ島留学に行ったのはなぜですか？</dt>
@@ -15,6 +17,7 @@ class Question extends React.Component {
                     長くなるので、知りたい方は下記をクリックしてください。
                     <Parent detail="詳細を見る"/>
                 </dd>
+                </Fade>
             </dl>
         )
     }

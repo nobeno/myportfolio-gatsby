@@ -1,5 +1,6 @@
 import React from 'react'
 import Helmet from 'react-helmet'
+import Fade from 'react-reveal/Fade';
 import Work from '../components/Work'
 import Skill from '../components/Skill'
 import Profile from '../components/Profile'
@@ -24,7 +25,9 @@ class HomeIndex extends React.Component {
 
                     <section id="one">
                         <header className="major">
-                            <h2 class="heading2">Profile</h2>
+                            <h2 class="heading2">
+                                <Fade left cascade>Profile</Fade>
+                            </h2>
                         </header>
                         
                         <Profile />
@@ -33,7 +36,9 @@ class HomeIndex extends React.Component {
 
                     <section id="two">
                         <header className="major">
-                            <h2 class="heading2">Work</h2>
+                            <h2 class="heading2">
+                                <Fade left cascade>Work</Fade>
+                            </h2>
                         </header>
 
                         <Work />
@@ -42,7 +47,9 @@ class HomeIndex extends React.Component {
 
                     <section id="three">
                         <header className="major">
-                            <h2 class="heading2">Skill</h2>
+                            <h2 class="heading2">
+                                <Fade left cascade>Skill</Fade>
+                            </h2>
                         </header>
 
                         <Skill />
@@ -51,7 +58,9 @@ class HomeIndex extends React.Component {
 
                     <section id="four">
                         <header className="major">
-                            <h2 class="heading2">Question</h2>
+                            <h2 class="heading2">
+                                <Fade left cascade>Question</Fade>
+                            </h2>
                         </header>
 
                         <Question />
@@ -59,7 +68,9 @@ class HomeIndex extends React.Component {
 
                     <section id="five">
                         <header className="major">
-                            <h2 class="heading2">Contact</h2>
+                            <h2 class="heading2">
+                                <Fade left cascade>Contact</Fade>
+                            </h2>
                         </header>
                         
                         <Contact />
