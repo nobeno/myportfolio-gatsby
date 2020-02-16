@@ -11,7 +11,7 @@ import Contact from '../components/Contact'
 class HomeIndex extends React.Component {
 
     render() {
-        const siteTitle = "Gatsby Starter - Strata"
+        const siteTitle = "Nobe's Portfolio Site"
         const siteDescription = "Site description"
 
         return (
