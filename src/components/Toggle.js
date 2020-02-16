@@ -22,7 +22,7 @@ class Parent extends React.Component {
     render() {
         return (
             <div>
-                <a onClick={this.handleClick}>
+                <a class="details" onClick={this.handleClick}>
                     {this.props.detail}
                 </a>
 

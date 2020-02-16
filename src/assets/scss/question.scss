@@ -53,8 +53,14 @@ $question-incolor:      #fff;
     margin-left: 20px;
     padding-left: 36px;
 }
-.faq dd:last-child{
-    margin-bottom: 0;
+
+.faq dd:last-of-type{
+    margin-bottom: 10px;
+}
+
+.details{
+    margin-left: 20px;
+    padding-left: 36px;
 }
 
 .toggle-dl{
