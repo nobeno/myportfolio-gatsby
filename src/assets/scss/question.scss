@@ -6,7 +6,6 @@
 $question-bgcolor:   #49bf9d;
 $question-incolor:      #fff;
 
-
 .faq{
     padding: 1em;
     border-radius: 1em;
@@ -54,16 +53,41 @@ $question-incolor:      #fff;
     margin-left: 20px;
     padding-left: 36px;
 }
-.faq dd:last-child{
+
+.faq dd:last-of-type{
+    margin-bottom: 10px;
+}
+
+.details{
+    margin-left: 20px;
+    padding-left: 36px;
+}
+
+.toggle-dl{
+    padding-top: 20px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.toggle-dl dt{
+    width: 80px;
+    float: left;
+    text-align: right;
+    padding-right: 30px;
+    font-weight: bold;
     margin-bottom: 0;
 }
 
-#toggle1{
-    display: none;
+.toggle-dl dt::before{
+    content: none;
 }
-.toggle-inner{
-    display: none;
+
+.toggle-dl dd{
+    margin-left: 0;
+    margin-bottom: 20px;
+    padding-left: 100px;
 }
-#toggle1:checked ~ .toggle-inner{
-    display: block;
+
+.toggle-dl dd::before{
+    content: none;
 }
