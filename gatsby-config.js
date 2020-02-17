@@ -18,6 +18,12 @@ module.exports = {
         icon: 'src/assets/images/website-icon.png', // This path is relative to the root of the site.
       },
     },
+    {
+      resolve: `gatsby-plugin-s3`,
+      options: {
+        bucketName: "nbnb51-website-bucket",
+      },
+    },
     'gatsby-plugin-sass',
     'gatsby-plugin-offline'
   ],
