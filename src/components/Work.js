@@ -5,7 +5,7 @@ import '../assets/scss/work.scss'
 class Work extends React.Component {
     render(){
         return(
-                <div class="container">
+                <div>
                     <div class="timeline-item" date-is='2017年4月~2019年4月'>
                         <h3>ビル管理</h3>
                         <p>
