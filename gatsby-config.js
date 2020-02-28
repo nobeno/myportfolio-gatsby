@@ -8,7 +8,7 @@ module.exports = {
     {
       resolve: "gatsby-plugin-google-analytics",
       options: {
-        trackingId: //ID
+        trackingId: "ID"
       }
     },
     'gatsby-plugin-react-helmet',
@@ -27,7 +27,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-s3`,
       options: {
-        bucketName: "nbnb51-website-bucket",
+        bucketName: "bucketname",
       },
     },
     'gatsby-plugin-sass',
