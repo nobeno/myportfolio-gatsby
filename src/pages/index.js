@@ -7,6 +7,7 @@ import Profile from '../components/Profile'
 import Question from '../components/Question'
 import Layout from '../components/layout'
 import Contact from '../components/Contact'
+import avatar from '../assets/images/avatar.jpg'
 
 class HomeIndex extends React.Component {
 
@@ -19,6 +20,12 @@ class HomeIndex extends React.Component {
                 <Helmet>
                         <title>{siteTitle}</title>
                         <meta name="description" content={siteDescription} />
+                        <meta name="twitter:card" content="summary" />
+                        <meta name="twitter:site" content="@nb5151" />
+                        <meta property="og:url" content="https://nobeno.dev" />
+                        <meta property="og:title" content="Nobe's Portfolio Site" />
+                        <meta property="og:description" content="I am Nobe, a beginning engineer.This is my website." />
+                        <meta property="og:image" content="https://nobeno.dev/static/avatar-0453af46765fcb7a4b1e1b325625b3ac.jpg" />
                 </Helmet>
 
                 <div id="main">
