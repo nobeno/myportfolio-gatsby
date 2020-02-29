@@ -6,9 +6,9 @@ class Skill extends React.Component {
     render(){
         return(
             <div>
-                <header class="heading">
-                    <h3>できること(タグクラウド風にまとめてます。詳細はQuestionへ。)</h3>
-                </header>
+                {/* <header class="heading">
+                    <h3>できること(詳細はQuestionへ。)</h3>
+                </header> */}
                 
                 <ul class="RecomendPoint">
                     <Fade bottom>
